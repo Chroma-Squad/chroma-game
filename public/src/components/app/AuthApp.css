@@ -1,0 +1,135 @@
+.errors {
+    font-family: monospace;
+    color: red;
+}
+
+.no-display {
+    display: none;
+}
+
+body {
+    color: white;
+    font-family: 'Nova Flat', cursive; 
+}
+
+a {
+    font-size: .8rem;
+}
+#about-us-link:hover{
+    color: white;
+}
+a:visited{
+    color: grey;
+}
+
+h1.animated#aletter1{
+    animation-delay: .2s;
+}
+h1.animated#letter1{
+    animation-delay: .2s;
+}
+h1.animated#aletter2{
+    animation-delay: .4s;
+}
+h1.animated#letter2{
+    animation-delay: .4s;
+}
+h1.animated#aletter3{
+    animation-delay: .6s;
+}
+h1.animated#letter3{
+    animation-delay: .6s;
+}
+h1.animated#aletter4{
+    animation-delay: .8s;
+}
+h1.animated#letter4{
+    animation-delay: .8s;
+}
+h1.animated#aletter5{
+    animation-delay: 1s;
+}
+h1.animated#letter5{
+    animation-delay: 1s;
+}
+@media only screen and (max-width: 667px) {
+
+    form {
+        width: 60vw;
+    }
+
+    h1 {
+        font-size: 3em;
+        font-family: 'Monofett', cursive;
+        display: inline-block;
+    }
+    
+    main p.switch, main p.errors {
+        font-family: 'Nova Flat', cursive; 
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    section, button, input, p {
+        margin: 1em;
+        text-align: center;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    main#flex-container {
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        background-color: black;
+        margin-top: 2em;
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (min-width: 668px) {
+
+    form {
+        width: 35vw;
+    }
+
+    h1 {
+        font-family: 'Monofett', cursive;
+        font-size: 3.5em;
+        display: inline-block;
+    }
+    
+    main p.switch, main p.errors {
+        margin-top: 1em;
+        text-align: center;
+        font-family: 'Nova Flat', cursive; 
+    }
+
+    section, button, input, p {
+        font-family: 'Nova Flat', cursive; 
+        margin: 1em;
+        text-align: center;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    main#flex-container {
+        width: 55vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        background-color: black;
+        margin-top: 2em;
+        border-radius: 5%;
+    }
+}
